@@ -4,11 +4,22 @@
     const btn1 = document.getElementById('btn1');
     
     var p = document.querySelector('p');
-    p = 0;
+    var coin = 0;
+    
 
     btn1.addEventListener('click', () => {
-        p++;
-        console.log(p);
+        coin++;
+        p.textContent = coin;
     });
-    p.textContent = p;
+
+    btn2.addEventListener('click', () => {
+        coin = coin + 10;
+        p.textContent = coin;
+    });
+
+    btn3.addEventListener('click', () => {
+        coin = coin + 100;
+        p.textContent = coin;
+    });
+    
 }
