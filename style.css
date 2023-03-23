@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+section {
+    width: 400px;
+    margin: 20px auto;;
+    padding: 40px;
+    border: 4px double tan;
+    border-radius: 10px;
+}
+
+button {
+    all: unset;
+    width: 100px;
+    background: navajowhite;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid rosybrown;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    opacity: .7;
+}
