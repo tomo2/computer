@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 section {
     width: 400px;
     margin: 20px auto;;
