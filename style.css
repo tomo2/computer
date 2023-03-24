@@ -4,9 +4,18 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+h1 {
+    width: 60%;
+    margin: 20px auto;
+    background: wheat;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+}
+
 section {
     width: 400px;
-    margin: 20px auto;;
+    margin: 40px auto;;
     padding: 40px;
     border: 4px double tan;
     border-radius: 10px;
@@ -36,4 +45,9 @@ p {
     border: 4px double tan;
     border-radius: 10px;
     text-align: center;
+}
+
+.disabled {
+    opacity: 0;
+    pointer-events: none;
 }
