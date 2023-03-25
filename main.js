@@ -4,6 +4,12 @@
     const btn1 = document.getElementById('btn1');
     const btn2 = document.getElementById('btn2');
     const btn3 = document.getElementById('btn3');
+    const btn4 = document.getElementById('btn4');
+    const btn5 = document.getElementById('btn5');
+    const btn6 = document.getElementById('btn6');
+    const btn7 = document.getElementById('btn7');
+    const btn8 = document.getElementById('btn8');
+    const btn9 = document.getElementById('btn9');
 
     // 合計の数字が入る
     var p = document.querySelector('p');
@@ -46,9 +52,8 @@
     });
 
      btn4.addEventListener('click', () => {
-        coin = coin + 2; //　合計に数字を追加
+        coin = coin + 2;
         p.textContent = coin;
-        // 二回目のクリックをできないようにする。
        dsd2();
     });
 
