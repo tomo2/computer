@@ -65,19 +65,19 @@
     });
 
      btn7.addEventListener('click', () => {
-        coin++;
+        coin = coin + 3;
         p.textContent = coin;
         dsd3();
     });
 
     btn8.addEventListener('click', () => {
-        coin = coin + 10;
+        coin = coin + 30;
         p.textContent = coin;
         dsd3();
     });
 
     btn9.addEventListener('click', () => {
-        coin = coin + 100;
+        coin = coin + 300;
         p.textContent = coin;
         dsd3();
     });
