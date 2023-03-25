@@ -10,6 +10,7 @@
     const btn7 = document.getElementById('btn7');
     const btn8 = document.getElementById('btn8');
     const btn9 = document.getElementById('btn9');
+    const reset = document.getElementById('reset');
 
     // 合計の数字が入る
     var p = document.querySelector('p');
@@ -85,6 +86,21 @@
         coin = coin + 300;
         p.textContent = coin;
         dsd3();
+    });
+
+    reset.addEventListener('click', () => {
+        btn1.classList.remove('disabled');
+        btn2.classList.remove('disabled');
+        btn3.classList.remove('disabled');
+        btn4.classList.remove('disabled');
+        btn5.classList.remove('disabled');
+        btn6.classList.remove('disabled');
+        btn7.classList.remove('disabled');
+        btn8.classList.remove('disabled');
+        btn9.classList.remove('disabled');
+
+        p.textContent = 0;
+        coin =  0;
     });
     
 }
