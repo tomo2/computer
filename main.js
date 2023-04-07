@@ -33,9 +33,11 @@
     }
 
 
-btn1.addEventListener('click', () => {
-        coin++; 
-        p.textContent = coin;
+    function btnAll(btn) {
+        btn.addEventListener('click', () => {
+                coin++; 
+                p.textContent = coin;
+    });
 
 
 
@@ -47,11 +49,7 @@ btn1.addEventListener('click', () => {
         dsd1();
     });
 
-    btn2.addEventListener('click', () => {
-        coin = coin + 10;
-        p.textContent = coin;
-       dsd1();
-    });
+     btnAll(btn2);
 
     btn3.addEventListener('click', () => {
         coin = coin + 100;
