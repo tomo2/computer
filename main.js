@@ -37,6 +37,7 @@
         btn.addEventListener('click', () => {
                 coin++; 
                 p.textContent = coin;
+                dsd1();
     });
     }
 
