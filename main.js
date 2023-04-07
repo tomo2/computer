@@ -32,6 +32,13 @@
         btn9.classList.add('disabled');
     }
 
+
+btn1.addEventListener('click', () => {
+        coin++; 
+        p.textContent = coin;
+
+
+
     //　ボタンをクリックしたら数字が追加される
     btn1.addEventListener('click', () => {
         coin++; //　合計に数字を追加
