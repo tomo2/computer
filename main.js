@@ -53,9 +53,11 @@
 
      btnAll(btn2);
      btnAll(btn3);
+
      btnAll(btn4);
      btnAll(btn5);
      btnAll(btn6);
+
      btnAll(btn7);
      btnAll(btn8);
      btnAll(btn9);
