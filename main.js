@@ -1,6 +1,7 @@
 'use strict';
 
 {
+    // ボタンを取得
     const btn1 = document.getElementById('btn1');
     const btn2 = document.getElementById('btn2');
     const btn3 = document.getElementById('btn3');
@@ -17,7 +18,7 @@
     var coin = 0;
 
     function dsd1() {
-        btn1.classList.add('disabled');
+        btn1.classList.add('disabled');  //ボタンをクリックしたら３つのボタンが押せなくなる。
         btn2.classList.add('disabled');
         btn3.classList.add('disabled');
     }
@@ -51,48 +52,14 @@
     });
 
      btnAll(btn2);
+     btnAll(btn3);
+     btnAll(btn4);
+     btnAll(btn5);
+     btnAll(btn6);
+     btnAll(btn7);
+     btnAll(btn8);
+     btnAll(btn9);
 
-    btn3.addEventListener('click', () => {
-        coin = coin + 100;
-        p.textContent = coin;
-        dsd1();
-    });
-
-     btn4.addEventListener('click', () => {
-        coin = coin + 2;
-        p.textContent = coin;
-       dsd2();
-    });
-
-    btn5.addEventListener('click', () => {
-        coin = coin + 20;
-        p.textContent = coin;
-        dsd2();
-    });
-
-    btn6.addEventListener('click', () => {
-        coin = coin + 200;
-        p.textContent = coin;
-        dsd2();
-    });
-
-     btn7.addEventListener('click', () => {
-        coin = coin + 3;
-        p.textContent = coin;
-        dsd3();
-    });
-
-    btn8.addEventListener('click', () => {
-        coin = coin + 30;
-        p.textContent = coin;
-        dsd3();
-    });
-
-    btn9.addEventListener('click', () => {
-        coin = coin + 300;
-        p.textContent = coin;
-        dsd3();
-    });
 
     reset.addEventListener('click', () => {
         btn1.classList.remove('disabled');
