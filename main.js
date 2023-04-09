@@ -34,9 +34,9 @@
     }
 
 
-    function btnAll1(btn) {
+    function btnAll1(btn, number) {
         btn.addEventListener('click', () => {
-                coin++; 
+                coin = coin + number; 
                 p.textContent = coin;
                 dsd1();
     });
