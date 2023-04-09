@@ -57,17 +57,17 @@
     }
 
 
-     btnAll1(btn1);
-     btnAll1(btn2);
-     btnAll1(btn3);
+     btnAll1(btn1, 1);
+     btnAll1(btn2, 10);
+     btnAll1(btn3, 100);
 
-     btnAll2(btn4);
-     btnAll2(btn5);
-     btnAll2(btn6);
+     btnAll2(btn4, 2);
+     btnAll2(btn5, 20);
+     btnAll2(btn6, 200);
 
-     btnAll3(btn7);
-     btnAll3(btn8);
-     btnAll3(btn9);
+     btnAll3(btn7, 3);
+     btnAll3(btn8, 30);
+     btnAll3(btn9, 300);
 
 
     reset.addEventListener('click', () => {
