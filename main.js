@@ -13,6 +13,7 @@
     const btn9 = document.getElementById('btn9');
     const reset = document.getElementById('reset');
 
+
     // 合計の数字が入る
     var p = document.querySelector('p');
     var coin = 0;
@@ -80,6 +81,10 @@
         btn7.classList.remove('disabled');
         btn8.classList.remove('disabled');
         btn9.classList.remove('disabled');
+
+
+        // const button = document.querySelectorAll('button');
+        // button.classList.remove('disabled');
 
         p.textContent = 0;
         coin =  0;
