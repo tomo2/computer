@@ -41,16 +41,16 @@
                 dsd1();
     });
     }
-        function btnAll2(btn) {
+        function btnAll2(btn, number) {
         btn.addEventListener('click', () => {
-                coin++; 
+                coin = coin + number;
                 p.textContent = coin;
                 dsd2();
     });
     }
-        function btnAll3(btn) {
+        function btnAll3(btn, number) {
         btn.addEventListener('click', () => {
-                coin++; 
+                coin = coin + number; 
                 p.textContent = coin;
                 dsd3();
     });
