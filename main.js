@@ -57,15 +57,8 @@
     }
 
 
-    //　ボタンをクリックしたら数字が追加される
-    btn1.addEventListener('click', () => {
-        coin++; //　合計に数字を追加
-        p.textContent = coin;
-        // 二回目のクリックをできないようにする。
-        dsd1();
-    });
-
-     btnAll1(btn2,2);
+     btnAll1(btn1);
+     btnAll1(btn2);
      btnAll1(btn3);
 
      btnAll2(btn4);
