@@ -34,11 +34,25 @@
     }
 
 
-    function btnAll(btn) {
+    function btnAll1(btn) {
         btn.addEventListener('click', () => {
                 coin++; 
                 p.textContent = coin;
                 dsd1();
+    });
+    }
+        function btnAll2(btn) {
+        btn.addEventListener('click', () => {
+                coin++; 
+                p.textContent = coin;
+                dsd2();
+    });
+    }
+        function btnAll3(btn) {
+        btn.addEventListener('click', () => {
+                coin++; 
+                p.textContent = coin;
+                dsd3();
     });
     }
 
@@ -51,16 +65,16 @@
         dsd1();
     });
 
-     btnAll(btn2);
-     btnAll(btn3);
+     btnAll1(btn2,2);
+     btnAll1(btn3);
 
-     btnAll(btn4);
-     btnAll(btn5);
-     btnAll(btn6);
+     btnAll2(btn4);
+     btnAll2(btn5);
+     btnAll2(btn6);
 
-     btnAll(btn7);
-     btnAll(btn8);
-     btnAll(btn9);
+     btnAll3(btn7);
+     btnAll3(btn8);
+     btnAll3(btn9);
 
 
     reset.addEventListener('click', () => {
