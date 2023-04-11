@@ -57,7 +57,7 @@
     });
     }
 
-
+    // 数値を追加
      btnAll1(btn1, 1);
      btnAll1(btn2, 10);
      btnAll1(btn3, 100);
